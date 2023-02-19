@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Compounding Interest Calculator</title>
+    <link rel="stylesheet" href="STYLE.css">
+  </head>
+  <body>
+    <header>
+      <h1>Compounding Interest Calculator</h1>
+    </header>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div id="calculator">
+      <form>
+        <label for="principal">Initial Investment:</label>
+        <input type="text" id="principal" name="principal" placeholder="Enter initial investment amount">
+        <label for="interest">Annual Interest Rate (%):</label>
+        <input type="text" id="interest" name="interest" placeholder="Enter annual interest rate">
+        <label for="time">Time Period (years):</label>
+        <select id="time" name="time">
+          <option value="1">1 year</option>
+          <option value="2">2 years</option>
+          <option value="3">3 years</option>
+          <option value="4">4 years</option>
+          <option value="5">5 years</option>
+          <option value="7">7 years</option>
+          <option value="8">8 years</option>
+          <option value="9">9 years</option>
+          <option value="10">10 years</option>
+          <option value="11">11 years</option>
+          <option value="12">12 years</option>
+          <option value="13">13 years</option>
+          <option value="14">14 years</option>
+          <option value="15">15 years</option>
+          <option value="16">16 years</option>
+          <option value="17">17 years</option>
+          <option value="18">18 years</option>
+          <option value="19">19 years</option>
+          <option value="20">20 years</option>
+        </select>
+        <button type="button" id="calculate">Calculate</button>
+      </form>
+      <div id="result"></div>
+      <div id="result"></div>
+    </div>
+    <footer>
+      <p>&copy; 2023 Compounding Interest Calculator</p>
+    </footer>
+    <script src="compounding.js"></script>
+  </body>
+</html>

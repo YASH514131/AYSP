@@ -1,0 +1,70 @@
+
+/* general styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+/* header styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+}
+/* navigation styling */
+nav {
+  background-color: #999;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+/* calculator container */
+#calculator {
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+/* input and label styling */
+input[type="text"], select {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  width: 90%;
+}
+label {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* button styling */
+button {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 100%;
+}
+/* footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
